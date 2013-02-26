@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QuadroDeAvisos</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_menuzao">Menuzao</string>
+    <string name="menu_sync">Sincronizar</string>
+    <string name="menu_opcoes">Opções</string>
+    <string name="menu_sair">Sair</string>
+    <string name="menu_not">Notificações</string>
+    <string name="title_activity_nova_nota">NovaNota</string>
+    <string name="not_assunto">Assunto</string>
+    <string name="not_texto">Texto</string>
+    <string name="not_criar_nota">Criar nota</string>
+
+</resources>
