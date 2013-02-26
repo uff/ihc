@@ -13,7 +13,7 @@ public class Menuzao extends Activity {
 	private Button sync;
 	private Button opcoes;
 	private Button sair;
-	
+	//teste 3
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
