@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuadroAvisos</string>
+    <string name="no_notes">Não há notas.</string>
+    <string name="menu_insert">Adicionar Nota</string>
+    <string name="menu_delete">Excluir Nota</string>
+    <string name="title">Título</string>
+    <string name="body">Corpo</string>
+    <string name="confirm">Postar</string>
+    <string name="edit_note">Editar Nota</string>
+    <string name="register">Não tem uma conta?</string>
+    <string name="login">Logar</string>
+    <string name="pass">Senha</string>
+    <string name="email">Email</string>
+    <string name="reg_fullname">Nome</string>
+    <string name="reg_email">Email</string>
+    <string name="reg_pass">Senha</string>
+    <string name="reg_btn">Confirmar registro</string>
+    <string name="reg_login">Voltar para a tela de login.</string>
+</resources>
