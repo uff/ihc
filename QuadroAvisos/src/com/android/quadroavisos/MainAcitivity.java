@@ -20,6 +20,7 @@ import com.android.quadroavisos.R;
 
 import android.app.ListActivity;
 import android.content.Intent;
+
 import android.content.res.Configuration;
 import android.database.Cursor;
 import android.os.Bundle;

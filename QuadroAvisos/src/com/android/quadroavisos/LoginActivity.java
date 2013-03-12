@@ -24,6 +24,7 @@ public class LoginActivity extends Activity {
         mDbHelper.open();
 
         setContentView(R.layout.login_activity);
+
         setTitle(R.string.login_activity);
         
         mEmailText = (EditText) findViewById(R.id.etEmail);
