@@ -1,0 +1,72 @@
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:fillViewport="true">
+<LinearLayout
+          android:orientation="vertical"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="10dip" >
+          <!-- Full Name Label -->
+          <TextView android:id="@+id/tvRegFullname" 
+              	android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/reg_fullname"/>
+          <EditText android:id="@+id/etRegFullname"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:singleLine="true"
+                android:layout_marginBottom="20dip"/>
+          <!--  Email Label -->
+          <TextView android:id="@+id/tvRegEmail" 
+              	android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/reg_email"/>
+          <EditText android:id="@+id/etRegEmail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:singleLine="true"
+                android:layout_marginBottom="20dip"/>
+          <!-- Password Label -->
+          <TextView android:id="@+id/tvRegPass"
+              android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/reg_pass"/>
+          <EditText android:id="@+id/etRegPass"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:password="true"
+                android:singleLine="true"
+                android:layout_marginTop="5dip"/>
+          <!-- Register Button -->
+          <Button android:id="@+id/btnRegister"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="@string/reg_btn"
+                android:onClick="onClickButton"/>
+          <!-- Link to Login Screen -->
+
+          <TextView
+              android:id="@+id/tvRegMessage"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceSmall" />
+
+          <TextView android:id="@+id/tvRegLogin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dip"
+                android:layout_marginBottom="40dip"
+                android:text="@string/reg_login"
+                android:gravity="center"
+                android:textSize="20dip"
+                android:textColor="#025f7c"
+                android:onClick="onClickLink"
+                android:clickable="true" />
+ 
+        </LinearLayout>
+</ScrollView>
